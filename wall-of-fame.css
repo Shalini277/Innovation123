@@ -43,8 +43,8 @@ body.dark {
 body {
     margin: 0;
     padding: 0;
-    background-color: black; /* Set your desired background color */
-    color: white; /* Set the text color for all elements */
+    background-color: lightgray; /* Set your desired background color */
+    color: black; /* Set the text color for all elements */
 }
 
 /* body {
@@ -64,8 +64,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #333;
-    color: #fff;
+    background-color:lightgrey;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +73,32 @@ body {
     width: 100%;
 	font-size: 14px;
     z-index: 100; /* Ensures it stays above other content */
+}
+.text {
+   color : black;
+   font-weight: bold;
+   font-size: 20px;
+}
+.bx.bxs-smile {
+    color: #2a2565;
+    font-size: 30px; /* Set the desired color */
+}
+.bxs-shopping-bag-alt {
+    color: #2a2565;
+    font-size: 15px; /* Set the desired color */
+}
+.bxs-dashboard {
+    color: #2a2565;
+    font-size: 15px; /* Set the desired color */
+}
+.bxs-doughnut-chart {
+    color: #2a2565;
+    font-size: 15px; /* Set the desired color */
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Adjust this value for vertical alignment */
 }
 /* Style the brand (Analytics Hub) link */
 .brand {
@@ -147,13 +173,57 @@ body {
 }
 
 
-
-
-
 .apink-box {
-    background-color: lightcoral;
+    background-color: palevioletred;
     padding: 40px; /* Adjust padding as needed for spacing */
     border-radius: 10px;
     font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     width: 100%; /* Add rounded corners for a box effect */
+}
+.image {
+    margin: 10pxauto; /* Center horizontally */
+    /* max-width: 10px; */
+    padding: 60px;  
+}
+.image-description {
+    /* margin: 10pxauto; Center horizontally */
+    /* max-width: 10px; */
+    margin-left: -900px;
+    margin-top: -70px;
+    padding: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.image-description1 {
+    /* margin: 10pxauto; Center horizontally */
+    /* max-width: 10px; */
+    margin-left: 680px;
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.image-description2 {
+    /* margin: 10pxauto; Center horizontally */
+    /* max-width: 10px; */
+    margin-left: 1080px;
+    margin-top: -40px;
+    padding: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.heading {
+    /* margin: 10pxauto; Center horizontally */
+    /* max-width: 10px; */
+    margin-left: 500px;
+    margin-top: -70px;
+    padding: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
